@@ -1,8 +1,8 @@
 /* Estilos Globais */
 :root {
-    --verde-agro: #109237;
-    --marrom-terra: #8b4513;
-    --azul-ceu: #87ceeb;
+    --verde-agro: #12a03c;
+    --marrom-terra: #0f9b26;
+    --azul-ceu: #ffffff;
     --amarelo-sol: #ffd700;
     --branco: #ffffff;
 }
@@ -409,4 +409,11 @@ footer {
 
 .fade-in {
     animation: fadeIn 1s ease forwards;
+}
+#left-panel {
+    background-image: url('img/colhedeira.png'); /* ou link da internet */
+}
+
+#right-panel {
+    background-image: url('img/trator3.png'); /* ou link da internet */
 }
